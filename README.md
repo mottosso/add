@@ -45,7 +45,7 @@ $ add myenv
 
 The single argument calls upon a similarly named shell script, `env-myenv.bat` for Windows and `env-myenv.sh` for any other platform.
 
-`env-myenv.x` is a any regular shell script.
+`env-myenv.x` is a regular shell script.
 
 #### Example 1 - A Python environment
 
@@ -83,7 +83,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-#### Example 2 - Composite environments
+#### Example 2 - A composite environment
 
 Now let's take one step further and build a composite environment of many sub-environments, such as the development environment for one of your projects where you might use Python, as before, but also PyQt and perhaps other libraries.
 
@@ -117,7 +117,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ### Introduction
 
-This "utility" - if it can even be called that - is more of a mindset than a piece of software. It is based on the core principle of [modules](http://modules.sourceforge.net/), an early 21st century command-line utility to manage complex environments and [Rez](https://github.com/nerdvegas/rez) an environment.
+This "utility" - if it can even be called that - is more of a mindset than a piece of software. It is based on the core principle of [modules](http://modules.sourceforge.net/), an early 21st century command-line utility to manage complex environments.
 
 But rather than giving you all of what it has to offer, it only offers one thing. To blindly and carelessly add one environment on top of another.
 
